@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Christian Dimpker</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Christian Dimpker
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container" style="align-items: left;">
+      <img src="https://dimpker.com/wp-content/uploads/2024/11/Dimpker_NewWeb-1-1-705x705.png" class="profile_image round_profile"/>
+      <div>
+          <h1 style="display: flex; align-items: center;">
+            Hi, I'm Christian Dimpker! <img src="html_finalprojimages/waving-hand.png" width="60px" style="margin-left: 15px;"/>
+          </h1>
+          <p>
+            Christian Dimpker is a composer and art theorist with a background in Philosophy, History and Sound Studies, culminating in a doctorate in Musicology and Composition. Dimpker’s music includes instrumental, vocal, orchestral, choral and electroacoustic works (opera N. 1-26) with a strong theoretical basis through the treatise <i>Extended Notation: The Depiction of the Unconventional</i> (LIT Verlag, 2013). Currently, Dimpker is expanding this artistic research – the upcoming monograph <i>Holistic Notation: Methods of Writing Scores for the Visual and Performing Arts</i> (Transcript Publishing/Columbia University Press, 2025) develops notations for extramusical events. It enables composers to write scores for light ballets, video, performance or mediatic dances (opera N. 27-38). All pieces are published by Universal Edition Vienna. Dimpker’s artistic research has been recognised through numerous grants, inter alia awarded by the Berlin Senate, the German government, the E.ON and Lotto foundations as well as the German Artist Fund, Musikfonds and GEMA – with performances and exhibitions across Germany, Japan, France, South Korea, Portugal, Australia, Serbia, the USA, England, Sweden and Romania by ensembles such as the International Contemporary Ensemble, Contemporary Insights, Elision Ensemble, Ensemble 2e2m and Ensemble Resonanz. In addition, Dimpker’s works as a music engraver include Helmut Lachenmann’s <i>Schreiben</i> for Breitkopf & Härtel and numerous pieces for James Dashow.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/react.png"/>
+          <h6>React</h6>
+          <p>3 years experience</p>
+        </div>
+          
+        <div class="skill">
+            <img src="html_finalprojimages/node.png"/>
+            <h6>Node.js</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="html_finalprojimages/java.png"/>
+            <h6>Java</h6>
+            <p>4 years experience</p>
+          </div>
+      </div>  
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Treatises</h3>
+            <ul>
+              <li>Developed notation systems in Extended notation and Holistic notation</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Scores</h3>
+            <ul>
+              <li>Composed 40 scores</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Website</h3>
+            <ul>
+              <li>Has a website</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Christian is an inspiring collaborator whose creativity and attention to detail elevate every project. His deep knowledge of music theory and composition is matched by his generosity as a mentor and colleague.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Christian was a fantastic experience. He brings innovative ideas and a strong work ethic to the table, always ensuring that the final result exceeds expectations. Highly recommended!
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Christian’s expertise in both traditional and experimental music is remarkable. He communicates complex concepts clearly and is always willing to support his team. I look forward to future collaborations.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Your recommendation has been added</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
